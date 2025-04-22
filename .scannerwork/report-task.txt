@@ -2,5 +2,5 @@ projectKey=sonarqube-example
 serverUrl=http://localhost:9000
 serverVersion=25.4.0.105899
 dashboardUrl=http://localhost:9000/dashboard?id=sonarqube-example
-ceTaskId=6e4bc5af-9866-49ec-a426-db7eb0db30d9
-ceTaskUrl=http://localhost:9000/api/ce/task?id=6e4bc5af-9866-49ec-a426-db7eb0db30d9
+ceTaskId=a39ba0c0-b60a-4003-9acd-75c067265e22
+ceTaskUrl=http://localhost:9000/api/ce/task?id=a39ba0c0-b60a-4003-9acd-75c067265e22
