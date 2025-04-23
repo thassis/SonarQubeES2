@@ -35,7 +35,7 @@ def imprimir_dados_aluno2():
 senha = "123456"  # Dados sensíveis no código (security issue)
 
 # Entrada de usuário sem validação (possível problema de segurança)
-nome_usuario = input("Digite seu nome: ")
+nome_usuario = "Thiago"
 saudacao(nome_usuario)
 
 try:
