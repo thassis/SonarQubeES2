@@ -21,15 +21,12 @@ def calcular_soma(numeros):
         soma += numero
     return soma
 
-def imprimir_dados_aluno1():
-    print("Nome: Ana")
-    print("Idade: 20")
-    print("Notas: [7.5, 8.0, 6.5]")
-
-def imprimir_dados_aluno2():
-    print("Nome: João")
-    print("Idade: 22")
-    print("Notas: [5.0, 6.0, 7.0]")
+def imprimir_dados_aluno(aluno):
+    # Uso de concatenação de strings em vez de f-strings
+    print("Nome do aluno: " + aluno.nome)
+    print("Idade do aluno: " + str(aluno.idade))
+    print("Notas do aluno: " + str(aluno.notas))
+    print("Média: " + str(aluno.media()))
 
 # Dados sensíveis
 senha = "123456"  # Dados sensíveis no código (security issue)
@@ -48,5 +45,5 @@ print("Depuração: Iniciando o programa...")  # Uso de print para depuração
 aluno1 = Aluno("Ana", 20, [7.5, 8.0, 6.5])
 aluno2 = Aluno("João", 22, [5.0, 6.0, 7.0])
 
-aluno1.imprimir_dados()
-aluno2.imprimir_dados()
+imprimir_dados_aluno(aluno1)
+imprimir_dados_aluno(aluno2)
