@@ -39,7 +39,7 @@ nome_usuario = input("Digite seu nome: ")
 saudacao(nome_usuario)
 
 try:
-    resultado = 10 / 0  # Forçando uma exceção
+    resultado = 10 / 2  # Forçando uma exceção
 except Exception:  # Exceção genérica (code smell)
     print("Ocorreu um erro.")
 
