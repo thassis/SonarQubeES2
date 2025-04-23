@@ -1,5 +1,5 @@
 from aluno import Aluno
-import os  # Importação não utilizada
+from turma import Turma
 
 # Variável global
 contador = 0  # Variável global (code smell)
@@ -47,3 +47,9 @@ aluno2 = Aluno("João", 22, [5.0, 6.0, 7.0])
 
 imprimir_dados_aluno(aluno1)
 imprimir_dados_aluno(aluno2)
+
+turma = Turma("Turma B")
+turma.adicionar_aluno(aluno1)
+turma.adicionar_aluno(aluno2)
+print(f"Média da turma {turma.nome}: {turma.calcular_media_turma()}")
+turma.listar_alunos()
